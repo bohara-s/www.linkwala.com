@@ -174,3 +174,34 @@
     }
   }
   
+
+  .category-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+    justify-content: center;
+  }
+  
+  .category-card {
+    background-color: #1e2f38;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .category-card:hover {
+    background-color: #2d4a57;
+  }
+  
+  @media (max-width: 500px) {
+    .category-card {
+      font-size: 13px;
+      padding: 8px 12px;
+    }
+  }
+  
